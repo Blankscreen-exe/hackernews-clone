@@ -88,7 +88,7 @@ WSGI_APPLICATION = 'hnclone.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'hackernews-clonedb',
+        'NAME': 'hackernews_clonedb',
         'USER': 'admin',
         'PASSWORD': 'defpassword',
         'HOST': 'localhost',
